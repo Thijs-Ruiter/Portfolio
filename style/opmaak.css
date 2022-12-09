@@ -22,12 +22,12 @@ nav {
   border: solid 2px black;
 }
 
-ul {
+.ul {
   margin: 5px;
   padding: 5px;
 }
 
-ul li {
+.ulli {
   border: solid 2px black;
   border-radius: 0px 0px 10px 0px;
   padding: 5px;
@@ -36,11 +36,11 @@ ul li {
   background: #088A63;
 }
 
-ul li:hover {
+.ulli:hover {
   background-color: #157759;
 }
 
-ul li a {
+.ullia {
   color: black;
 }
 
@@ -48,7 +48,7 @@ section {
   float: left;
   clear: left;
   width: 74%;
-  height: 500px;
+  height: 100%;
   background: #0B5699;
   border: solid 2px black;
   align-self: center;
@@ -61,7 +61,7 @@ article {
 aside {
   float: left;
   width: 25%;
-  height: 500px;
+  height: 100%;
   background: #0B5699;
   border: solid 2px black;
   align-self: center;
@@ -90,12 +90,9 @@ image {
   background-color: #157759;
 }
 
-.noAside {
-  width: 100%;
-}
-
-#if{
-  height: 800px;
+#title {
+  font-size: 25px;
+  text-align: center;
 }
 
 .box {
@@ -103,4 +100,20 @@ image {
   padding: 5px;
   border: solid 2px black;
   border-radius: 0px 0px 10px 0px;
+}
+
+ul li {
+  border: solid 2px black;
+  border-radius: 0px 0px 10px 0px;
+  margin: 5px;
+  padding: 5px;
+  width: 20%;
+  display: block;
+  color: black;
+  background: #0B5699;
+  text-align: center;
+}
+
+.sectside {
+  height: 140vh;
 }
